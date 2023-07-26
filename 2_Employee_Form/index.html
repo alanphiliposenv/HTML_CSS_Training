@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="style.css">
+
+<body>
+    <aside>
+        <header><img src="images/kv logo.png" alt=""></header>
+        <div>
+            <img src="images/icon.svg" alt="Employee Icon">
+            <span>Employee List</span>
+        </div>
+    </aside>
+    <main>
+        <div class="header bg-white"></div>
+        <section class="bg-white">
+            <h1>Create Employees</h1>
+        </section>
+        <section class="bg-white">
+            <form action="/">
+                <div class="input-fields">
+                    <div class="input-field">
+                        <label for="name">Employee Name</label>
+                        <input class="input" type="text" placeholder="Employee Name">
+                    </div>
+                    <div class="input-field">
+                        <label for="id">Employee ID</label>
+                        <input class="input" type="text" placeholder="Employee ID">
+                    </div>
+                    <div class="input-field">
+                        <label for="name">Joining Date</label>
+                        <input class="input" type="text" placeholder="Joining Date">
+                    </div>
+                    <div class="input-field">
+                        <label for="name">Role</label>
+                        <select class="dropdown" name="Role" id="Role" aria-placeholder="Role">
+                            <option style="color: blue" value="" disabled selected hidden>Choose Role</option>
+                            <option class="options" value="developer">Developer</option>
+                            <option class="options" value="developer">DevOps</option>
+                            <option class="options" value="developer">UI/UX</option>
+                        </select>
+                    </div>
+                    <div class="input-field">
+                        <label for="name">Status</label>
+                        <select class="dropdown" name="Role" id="Role" aria-placeholder="Role">
+                            <option style="color: blue" value="" disabled selected hidden>Status</option>
+                            <option class="options" value="developer">Employed</option>
+                            <option class="options" value="developer">Trainee</option>
+                            <option class="options" value="developer">Hiring</option>
+                        </select>
+                    </div>
+                    <div class="input-field">
+                        <label for="name">Experience</label>
+                        <input class="input" type="text" placeholder="Experience">
+                    </div>
+                    <div class="input-field">
+                        <label for="name">Address</label>
+                        <input class="input" type="text" placeholder="Address">
+                    </div>
+                </div>
+                <input class="submit form-btn" type="submit" value="Create">
+                <input class="cancel form-btn" type="reset" value="Cancel">
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>
